@@ -54,12 +54,34 @@
 // mssg.setAttribute('class', 'success');
 // mssg.setAttribute('style', 'color: green;');
 
-const title = document.querySelector('h1');
-// title.setAttribute('style', 'margin: 50px;');
-console.log(title.style);
-console.log(style.color);
-title.style.margin = '50px';
-title.style.color = 'crimson';
-title.style.fontSize = '60px';
-title.style.margin = '';
+// const title = document.querySelector('h1');
+// // title.setAttribute('style', 'margin: 50px;');
+// console.log(title.style);
+// console.log(style.color);
+// title.style.margin = '50px';
+// title.style.color = 'crimson';
+// title.style.fontSize = '60px';
+// title.style.margin = '';
+
+//pt 3
+// const content = document.querySelector('p');
+// console.log(content.classList);
+// content.classList.add('error');
+// content.classList.remove('error');
+// content.classList.add('success');
+
+// quiz time
+const paras = document.querySelectorAll('p');
+paras.forEach(p => {
+    if(p.textContent.includes('error')){
+        p.classList.add('error');
+    }
+    if(p.innerText.includes('success')){
+        p.classList.add('success');
+    }
+});
+
+const title = document.querySelector('.title');
+title.classList.toggle('test');
+title.classList.toggle('test');
 
