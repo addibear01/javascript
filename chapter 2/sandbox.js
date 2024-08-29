@@ -41,5 +41,14 @@ console.log(fullName.toUpperCase());
 let result = fullName.toLowerCase();
 console.log(result, fullName);
 
-let index = email.indexOf('@');
+let index = email.indexOf('n');
 console.log(index);
+
+// common string methods
+// let example = email.slice(2,5);
+// let example = email.substr(4,10);
+// let example = email.replace('m', 'w');
+let example = email.replace('n', 'w');
+console.log(example);
+
+
