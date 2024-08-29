@@ -83,3 +83,49 @@ console.log('area is:', area);
 //     return total;
 // }
 // console.log(bill([10,15,30], 0.2));
+
+// const name = 'shaun';
+
+//functions
+// const greet = () => 'hello';
+
+// let resultOne = greet();
+// console.log(resultOne);
+
+//methods
+
+// let resultTwo = name.toUpperCase()
+// console.log(resultTwo);
+
+// callbacks and foreach
+
+// const myFunc = (callbackFunc) => {
+    //do something
+//     let value = 50;
+//     callbackFunc(value);
+// };
+
+// myFunc(function(value){
+    //do something
+//     console.log(value);
+// });
+
+// let people = ['mario', 'luogi', 'ryu', 'shaun', 'chun-li'];
+// const logPerson = (person, index) => {
+//     console.log(`${index} - hello ${person}`);
+// };
+// people.forEach(logPerson);
+
+// get a reference to the ul
+const ul = document.querySelector('.people');
+
+const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+let html = ``;
+
+people.forEach(function(person){
+    //create html template
+    html += `<li style="color: purple">${person}</li>`;
+});
+
+console.log(html);
+ul.innerHTML = html;
