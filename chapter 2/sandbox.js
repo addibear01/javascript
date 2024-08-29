@@ -51,4 +51,38 @@ console.log(index);
 let example = email.replace('n', 'w');
 console.log(example);
 
+let radius = 10;
+const pi = 3.14;
+
+// console.log(radius, pi);
+
+// math operators +, -, *, /, **, %
+console.log(10/2);
+// let number = radius % 3;
+// let number = pi * radius**2;
+
+//order of operation - B I D M A S
+// let number = 5 * (10-3)**2;
+
+// console.log(number);
+
+let likes = 10;
+
+// likes = likes + 1;
+// likes ++;
+// likes --;
+// likes += 10;
+// likes -= 5;
+// likes *= 2;
+// likes /= 2;
+
+console.log(likes);
+
+//NaN not a number
+console.log(5 / 'hello');
+console.log(5 * 'hello');
+
+let answer = 'the blog has ' + likes + ' likes';
+console.log(answer);
+
 
