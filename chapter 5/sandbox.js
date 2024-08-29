@@ -46,18 +46,34 @@
 // console.log(typeof user);
 
 //Math object
-console.log(Math);
-console.assertlog(Math.PI);
-console.log(Math.E);
+// console.log(Math);
+// console.assertlog(Math.PI);
+// console.log(Math.E);
 
-const area = 7.7;
+// const area = 7.7;
 
-console.log(Math.round(area));
-console.log(Math.floor(area));
-console.log(Math.ceil(area));
-console.log(Math.trunc(area));
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+// console.log(Math.ceil(area));
+// console.log(Math.trunc(area));
 
-//random numbers
-const random = Math.random();
-console.log(random);
-console.log(Math.round(random * 100));
+// //random numbers
+// const random = Math.random();
+// console.log(random);
+// console.log(Math.round(random * 100));
+
+//primitive values
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+scoreOne = 100;
+console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+
+//reference values
+const userOne = {name: 'ryu', age: 30};
+const userTwo = userOne;
+console.log(userOne, userTwo);
+userOne.age = 40;
+userOne.name = 'chun-li';
+console.log(userOne, userTwo);
