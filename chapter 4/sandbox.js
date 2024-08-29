@@ -12,14 +12,22 @@
 // greet();
 // greet();
 
-speak();
-speak();
-speak();
+// speak();
+// speak();
+// speak();
 
-function greet(){
-    console.log('hello there');
-}
+// function greet(){
+//     console.log('hello there');
+// }
 
-const speak = function(){
-    console.log('good day!');
+// const speak = function(){
+//     console.log('good day!');
+// };
+
+//arguments and parameters
+const speak = function(name = 'luigi', time = 'night'){
+    console.log(`good ${time} ${name}`);
 };
+
+speak();
+speak('shaun', 'day');
