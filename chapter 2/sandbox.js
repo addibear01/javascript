@@ -17,47 +17,47 @@
 // console.log(score);
 
 // strings
-console.log('hello, world');
+// console.log('hello, world');
 
-let email = 'mario@thenetninja.co.uk';
-console.log(email);
+// let email = 'mario@thenetninja.co.uk';
+// console.log(email);
 
 // string concatenation
 
-let firstName = 'Brandon';
-let lastName = 'Sanderson';
+// let firstName = 'Brandon';
+// let lastName = 'Sanderson';
 
-let fullName = firstName + ' ' + lastName;
-console.log(fullName);
+// let fullName = firstName + ' ' + lastName;
+// console.log(fullName);
 
 // getting characters
-console.log(fullName[2]);
+// console.log(fullName[2]);
 
 // string length
-console.log(fullName.length);
+// console.log(fullName.length);
 
 // string methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
+// console.log(fullName.toUpperCase());
+// let result = fullName.toLowerCase();
+// console.log(result, fullName);
 
-let index = email.indexOf('n');
-console.log(index);
+// let index = email.indexOf('n');
+// console.log(index);
 
 // common string methods
 // let example = email.slice(2,5);
 // let example = email.substr(4,10);
 // let example = email.replace('m', 'w');
-let example = email.replace('n', 'w');
-console.log(example);
+// let example = email.replace('n', 'w');
+// console.log(example);
 
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 
 // console.log(radius, pi);
 
 // math operators +, -, *, /, **, %
-console.log(10/2);
+// console.log(10/2);
 // let number = radius % 3;
 // let number = pi * radius**2;
 
@@ -66,7 +66,7 @@ console.log(10/2);
 
 // console.log(number);
 
-let likes = 10;
+?
 
 // likes = likes + 1;
 // likes ++;
@@ -76,13 +76,60 @@ let likes = 10;
 // likes *= 2;
 // likes /= 2;
 
-console.log(likes);
+// console.log(likes);
 
 //NaN not a number
-console.log(5 / 'hello');
-console.log(5 * 'hello');
+// console.log(5 / 'hello');
+// console.log(5 * 'hello');
 
-let answer = 'the blog has ' + likes + ' likes';
-console.log(answer);
+// let answer = 'the blog has ' + likes + ' likes';
+// console.log(answer);
+
+// const title = "Best reads of 2019";
+// const author = 'Mario';
+// const likes = 30;
+
+// concatenation way
+// let concat = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes ';
+// console.log(concat);
+
+//template string way
+// let result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
+
+//creating html templates
+// let html = `
+//     <h2>${title}</h2>
+//     <p>By ${author}</p>
+//     <span>This blog has ${likes} likes</span>
+// `;
+
+// console.log(html);
+
+// let ninjas = ['shaun', 'ryu', 'chun-li'];
+// ninjas[1] = 'ken';
+// console.log(ninjas[1]);
+
+// let ages = [20,25,30,35];
+// console.log(ages[2]);
+
+// let random = ['shaun', 'crystal', 30, 20];
+// console.log(random);
+
+// console.log(ninjas.length);
+
+//array methods
+
+// let result = ninjas.join('-');
+// let result = ninjas.indexOf('chun-li');
+// let result = ninjas.concat(['ken', 'crystal']);
+// let result = ninjas.push('ken');
+// result = ninjas.pop();
+// console.log(result);
+
+let age = null;
+console.log(age, age + 3, `the age is ${age}`);
+
+
 
 
